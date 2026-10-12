@@ -1,0 +1,25 @@
+Lab 2 CSM (ESFI001, UFABC) - Grupo 3
+Codificação de áudio e imagem sem perdas
+
+Como publicar no Netlify
+1. Acesse app.netlify.com/drop (é preciso estar logado).
+2. Arraste a pasta site-lab2 inteira (ou o arquivo site-lab2.zip) para a área indicada.
+3. O Netlify gera um endereço público. Em "Site configuration" dá para trocar o nome.
+
+Para ver no computador sem publicar: abra index.html no navegador (funciona via file://).
+
+Conteúdo
+  index.html        relatório
+  css/style.css     estilos (tema claro e escuro)
+  js/dados.js       dados gerados pelo script (não editar à mão)
+  js/app.js         tabelas, gráficos SVG e visualizadores
+  img/graficos/     gráficos gerados pelo script
+  img/              fotos e figuras
+  audio/            áudios em FLAC (originais idênticos aos WAV e resíduos)
+  video/            apresentações gravadas (grupo 3 e grupo 4), recomprimidas em H.264
+  docs/             slides da apresentação do grupo (PDF)
+  codigo/           analise_lab2.py
+
+Para regenerar os dados: na pasta "Lab 2 - CSM", rode
+  python3 analise_lab2.py
+(precisa de numpy, scipy, matplotlib, Pillow e ffmpeg no PATH).
